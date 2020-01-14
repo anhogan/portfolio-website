@@ -188,7 +188,8 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2rem 0;
+    margin: 0 0 2rem 0;
+    text-align: center;
 	}
 
 		p.major {
@@ -8604,4 +8605,19 @@ input, select, textarea {
 
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
-			}
+      }
+      
+/* CUSTOM STYLES */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#headshot {
+  width: 125px;
+  border-radius: 60px;
+  margin-right: auto;
+  margin-left: auto;
+}
