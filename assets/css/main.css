@@ -188,7 +188,8 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2rem 0;
+    margin: 0 0 2rem 0;
+    text-align: center;
 	}
 
 		p.major {
