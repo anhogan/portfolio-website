@@ -8604,4 +8604,19 @@ input, select, textarea {
 
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
-			}
+      }
+      
+/* CUSTOM STYLES */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#headshot {
+  width: 125px;
+  border-radius: 60px;
+  margin-right: auto;
+  margin-left: auto;
+}
