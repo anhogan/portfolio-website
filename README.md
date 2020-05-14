@@ -1,54 +1,18 @@
-# Build A Portfolio Website
+# Amanda Hogan
+## Full Stack Web Developer
 
-With all of the projects you will be working on here at Lambda School, you will need somewhere to house them!  There is no better opportunity to learn and show off your skills than a beautiful portfolio website.  
+As an innovative Software Engineer and Web Developer, I offer a track record of success in developing full-stack web applications for business and commercial use. I also test, troubleshoot, and resolve customer issues to enhance overall productivity, quality, and the user experience by delivering product features and upgrades with intuitive functionality.
 
-You have the ability to write HTML, CSS, and responsive media queries.  You also know how to identify and write responsive units.  It's time to put that knowledge into action by reading someone else's code and adding your own flavor.  You will be building a portfolio website from a template found on [https://html5up.net/](https://html5up.net/).
+Examples of my work include:
 
-## Project Set Up
+- Collaborated with the engineering team lead to optimize TeamSynced’s customer database, using Ruby on Rails, for enhanced metrics around account engagement to provide better insights for the sales teams on overall account health which reduced churn and helped exceed the annual ARR goal by 10% two years in a row
 
-### Follow these steps to set up and work on your project:
+- Grew customer engagement 300% in six months by continuously improving onboarding methods, leading the distribution of messaging designed to support teams in deriving the optimal value of the product, and maintaining relevant documentation for internal and external users to improve consistency and reduce support requests through self-help features
 
-_ Watch this walk through video:  https://youtu.be/P2Y9W29kcjs
+- Implemented end-to-end testing across the entire TeamSynced web application using Cypress to automate repetitive tasks and streamline shipping new features and critical fixes
 
-- [ ] Create a forked copy of this project.
-- [ ] Add PM as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch on the clone: `git checkout -b <firstName-lastName>`.
-- [ ] Implement the project on the `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: `git push origin <firstName-lastName>`.
+- Built a real-time chat app using GraphQL, Prisma, Apollo, and React with design elements in Material UI to help the project comply with WCAG 2.0 standards
 
-### Follow these steps to download your template and start the project:
+- Created a Google Chrome extension, using JavaScript and state management principles, that allows users to track their apparel and footwear sizes for quick, convenient access when online shopping
 
-- [ ] Navigate here: [https://html5up.net/](https://html5up.net/)
-- [ ] You make pick any template you like.  Here are some good choices for a portfolio:
-	- [https://html5up.net/story](https://html5up.net/story)
-	- [https://html5up.net/solid-state](https://html5up.net/solid-state)
-	- [https://html5up.net/miniport](https://html5up.net/miniport)
-	- [https://html5up.net/dimension](https://html5up.net/dimension)
-
-- [ ] Unzip the code and copy the site to your git repository that you just set up
-  * Note that we won't be utilizing the pre processed CSS structure, you can just ignore any folder with LESS or SASS (SCSS) in it.
-- [ ] Work on the MVP requirements listed below
-
-### Follow these steps for completing your project after your MVP is completed:
-
-- [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into master (student's Repo). **Please don't merge your own pull request**
-- [ ] Add your Project Manager as a Reviewer on the Pull-request
-- [ ] PM then will count the HW as done by merging the branch back into master.
-
-## MVP Requirements
-
-- [ ] Study the code base and identify both responsive units and where media queries were used.  Take notes on anything that confuses you or interesting things you find.  Share this information in your standup meeting with your group
-- [ ] Customize the template to you 
-	- [ ] Update the title tag match your name
-	- [ ] Update the place holder content throughout the template to your information
-		* Some templates are much larger than others, you don't need to fill in every little div with information, just try to get the site representing you and your work 
-		* You can use sites like [https://www.pexels.com/](https://www.pexels.com/) for free images to fill in place holders
-		* Showcase projects you have worked on by providing some information and links to your git hub projects
-- [ ] Implement proper attribution: Attribution is required under the [creative commons license](https://html5up.net/license) that came with the website files you downloaded.  Be sure to provide attribution somewhere in the site.  The templates should already come with attribution found in most footers but double check to be sure.
-- [ ] Host your website for the world to see. Follow the instructions found here [https://pages.github.com/](https://pages.github.com/).  Once you have hosted your web page, share it for your peers to see.  This is not a small feat!
-
-## Stretch
-
-- [ ] Study the JavaScript used in your template and see if you can tweak any of the behavior to see how it works
-- [ ] Download another template and see if you can get the CSS preprocessor working on the project
+My previous experiences have supplemented my skills in leadership, communication, and critical thinking along with strengthening my ability to creatively solve problems, effectively make decisions, and resolve conflict. I work well with others and am highly adaptable to continuously evolving environments. My attention to detail, creativity, organization, and time-management skills help me prioritize tasks to meet deadlines with high-quality work. I am a self-starter, a quick learner, and have experience working with HTML5, CSS3, Material UI, JavaScript, React, jQuery, Ruby on Rails, GraphQL, Apollo, Prisma, NodeJS, Express, Cypress, Jest, PostgreSQL, and REST APIs. 
