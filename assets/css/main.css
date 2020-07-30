@@ -8621,3 +8621,8 @@ input, select, textarea {
   margin-right: auto;
   margin-left: auto;
 }
+
+#projects_title {
+	text-align: center;
+	box-shadow: none;
+}

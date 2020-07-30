@@ -29,7 +29,8 @@
               <p class="major">FULL STACK WEB DEVELOPER</p>
               <p class="major">Connecting the world with intuitive technology by prioritizing customer needs to create an exceptional user experience.</p>
 							<ul class="actions">
-                <li><a href="#first" class="button big wide smooth-scroll-middle">My Projects</a></li>
+								<li><a href="#skills" class="button big wide smooth-scroll-middle">Skills</a></li>
+								<li><a href="#projects" class="button big wide smooth-scroll-middle">My Projects</a></li>
                 <li><a href="mailto:anhogan321@gmail.com" class="button big wide smooth-scroll-middle">Contact Me</a></li>
 							</ul>
 						</div>
@@ -39,9 +40,9 @@
 					</section>
 
 					<!-- Skills -->
-					<section class="wrapper style1 align-center">
+					<section id="skills" class="wrapper style1 align-center">
 						<div class="inner">
-							<h2>Skills</h2>
+							<h2><strong>Skills</strong></h2>
 							<div class="items style1 medium onscroll-fade-in">
 								<section>
 									<span class="icon style2 major fa-file-code"></span>
@@ -50,10 +51,6 @@
 								<section>
 									<span class="icon solid style2 major fa-tint"></span>
 									<h3>CSS3</h3>
-								</section>
-								<section>
-									<span class="icon solid style2 major fa-object-group"></span>
-									<h3>Material UI</h3>
 								</section>
 								<section>
 									<span class="icon solid style2 major fa-coffee"></span>
@@ -79,19 +76,27 @@
 									<span class="icon solid style2 major fa-subway"></span>
 									<h3>Ruby on Rails</h3>
 								</section>
+								<section>
+									<span class="icon solid style2 major fa-handshake"></span>
+									<h3>Python</h3>
+								</section>
 							</div>
 						</div>
+						<h2 id="projects_title"><strong>My Projects</strong></h2>  
 					</section>
 
-				<!-- Highlighted Projects -->  
-					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
+				<!-- Highlighted Projects -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="projects">
 						<div class="content">
 							<h2>TeamSynced</h2>
-							<p>An app used by collegiate and professional sports team for enhanced organization, streamlined communication, and increased accountability. Built using Ruby on Rails and jQuery.</p>
-							<p>Implemented automated QA testing with Cypress</p>
-							<p>Built new features using Ruby on Rails and jQuery</p>
-							<p>Produced high-quality mock-ups for new features</p>
-							<p>Managed account health using an integrated database</p>
+							<p>An app used by collegiate and professional sports team for enhanced organization, streamlined communication, and increased accountability</p>
+							<p>Built using Ruby on Rails and jQuery</p>
+							<ul>
+								<li>Implemented automated QA testing with Cypress</li>
+								<li>Built new features using Ruby on Rails and jQuery</li>
+								<li>Produced high-quality mock-ups for new features</li>
+								<li>Managed account health using an integrated database</li>
+							</ul>
 							<ul class="actions stacked">
 								<li><a href="https://www.teamsynced.com/" target="_blank" class="button">View Project</a></li>
 							</ul>
@@ -104,12 +109,14 @@
 					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="second">
             <div class="content">
               <h2>ACS Adaptiv Apps</h2>
-              <p>A fully accessible app that gives users the ability to access information about upcoming events and foster relationships through a real-time chat feature. Built using GraphQL, Prisma, Apollo, React, and Material UI.</p>
-							<p>Collaborated with a team to implement a real-time chat app using GraphQL Subscriptions</p>
-							<p>Direct messaging and one-to-many announcements built with full CRUD operations</p>
-              <p>Styled using Material UI and complies with WCAG 2.0 accessibility guidelines</p>
+              <p>A fully accessible app that gives users the ability to access information about upcoming events and foster relationships through a real-time chat feature</p>
+							<p>Built using GraphQL, Prisma, Apollo, React, and Material UI</p>
+							<ul>
+								<li>Collaborated with a team to implement a real-time chat app using GraphQL Subscriptions</li>
+								<li>Implemented the back-end for direct messaging and one-to-many announcements</li>
+								<li>Styled using Material UI and complies with WCAG 2.0 accessibility guidelines</li>
+							</ul>
               <ul class="actions">
-								<li><a href="https://adaptivdev.net/" target="_blank" class="button">View Project</a></li>
 								<li><a href="https://github.com/anhogan/AdaptivApps-fe" target="_blank" class="button">View Code</a></li>
               </ul>
             </div>
@@ -121,9 +128,12 @@
 					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="third">
             <div class="content">
               <h2>Just My Size</h2>
-              <p>Google Chrome extension to easily track your apparel and footwear sizes across brands, styles, and types. Quickly access your data when online shopping to get the right fit every time. Built using JavaScript.</p>
-              <p>Created using JavaScript and state management principles</p>
-              <p>Functional search component for easy access using the pop-up window</p>
+							<p>Google Chrome extension to easily track your apparel and footwear sizes across brands, styles, and types. Quickly access your data when online shopping to get the right fit every time</p>
+							<p>Built using JavaScript</p>
+							<ul>
+								<li>Solely responsible for designing and coding the extension</li>
+								<li>Implemented full CRUD operations and multi-functional search component</li>
+							</ul>
               <ul class="actions">
 								<li><a href="https://chrome.google.com/webstore/detail/just-my-size/ombggmodmhplhgdjkcgieelflokgnbfp" target="_blank" class="button">View Project</a></li>
 								<li><a href="https://github.com/anhogan/just-my-size" target="_blank" class="button">View Code</a></li>
@@ -137,58 +147,30 @@
 					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="fourth">
             <div class="content">
               <h2>TAPPR</h2>
-              <p>Craft beer database where users can search for a specific beer, create a favorites list, and add comments for future reference. Built using Node.js, Express, and PostgreSQL</p>
-              <p>Designed and built the relatinonal database</p>
-              <p>Implemented all API routes for the app and wrote well documented instructions for each endpoint</p>
+							<p>Craft beer database where users can search for a specific beer, create a favorites list, and add comments for future reference</p>
+							<p>Built using Node.js, Express, and PostgreSQL</p>
+							<ul>
+								<li>Designed and built the relatinonal database</li>
+								<li>Implemented all API routes for the app and wrote well documented instructions for each endpoint</li>
+							</ul>
               <ul class="actions">
-								<li><a href="https://tappr.now.sh/" target="_blank" class="button">View Project</a></li>
 								<li><a href="https://github.com/tappr-app/tappr-BE" target="_blank" class="button">View Code</a></li>
               </ul>
             </div>
             <div class="image">
               <img src="images/tappr.jpg" alt="TAPPR Backend" />
             </div>
-          </section>
+					</section>
 					
 					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="fifth">
             <div class="content">
-              <h2>To-Do List</h2>
-              <p>Manage your to-do list with this app. Built using React and Redux a user can mark items as complete, remove completed tasks, and add new items.</p>
-              <p>Coded and designed the project using React with Redux</p>
-              <p>Fast and responsive using functional component rendering</p>
-              <ul class="actions">
-								<li><a href="https://reducer-todo-ruddy.now.sh/" target="_blank" class="button">View Project</a></li>
-								<li><a href="https://github.com/anhogan/reducer-todo" target="_blank" class="button">View Code</a></li>
-              </ul>
-            </div>
-            <div class="image">
-              <img src="images/to-do.jpg" alt="To-Do List" />
-            </div>
-          </section>
-
-          <section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="sixth">
-            <div class="content">
-              <h2>GitHub User Finder</h2>
-              <p>An app to look up different GitHub users and get an overview of their repositories, followers, and link to their page. Built using React.</p>
-              <p>Coded and designed the project using React</p>
-              <p>Functional search component that queries the GitHub API using REST and Node principles</p>
-              <p>Implemented user animations with GSAP</p>
-              <ul class="actions">
-								<li><a href="https://react-github-user-card-efln9wq4a.now.sh/" target="_blank" class="button">View Project</a></li>
-								<li><a href="https://github.com/anhogan/React-Github-User-Card" target="_blank" class="button">View Code</a></li>
-              </ul>
-            </div>
-            <div class="image">
-              <img src="images/github.png" alt="GitHub User Finder" />
-            </div>
-          </section>
-
-          <section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="seventh">
-            <div class="content">
               <h2>NASA Astronomy Photo of the Day</h2>
-              <p>See the current NASA Astronomy Photo of the Day and search for different pictures based on an inputted data. Built using React and styled with CSS.</p>
-              <p>Coded and designed the app using React</p>
-              <p>Functional search component that queries the NASA API using REST and Node principles</p>
+							<p>See the current NASA Astronomy Photo of the Day and search for different pictures based on an inputted data</p>
+							<p>Built using React and styled with CSS</p>
+							<ul>
+								<li>Solely responsible for designing and coding the app</li>
+								<li>Built a functional date search component that queries the NASA API using REST and Node principles</li>
+							</ul>
               <ul class="actions">
 								<li><a href="https://nasa-photo-of-the-day-pi.now.sh/" target="_blank" class="button">View Project</a></li>
 								<li><a href="https://github.com/anhogan/nasa-photo-of-the-day" target="_blank" class="button">View Code</a></li>
@@ -196,6 +178,26 @@
             </div>
             <div class="image">
               <img src="images/nasa.jpg" alt="NASA APOD" />
+            </div>
+          </section>
+
+          <section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="sixth">
+            <div class="content">
+              <h2>GitHub User Finder</h2>
+							<p>An app to look up different GitHub users and get an overview of their repositories, followers, and link to their page</p>
+							<p>Built using React</p>
+							<ul>
+								<li>Solely responsible for designing and coding the app</li>
+								<li>Built a functional search component that queries the GitHub API using REST and Node principles</li>
+								<li>Implemented user animations with GSAP</li>
+							</ul>
+              <ul class="actions">
+								<li><a href="https://react-github-user-card-efln9wq4a.now.sh/" target="_blank" class="button">View Project</a></li>
+								<li><a href="https://github.com/anhogan/React-Github-User-Card" target="_blank" class="button">View Code</a></li>
+              </ul>
+            </div>
+            <div class="image">
+              <img src="images/github.png" alt="GitHub User Finder" />
             </div>
           </section>
 
